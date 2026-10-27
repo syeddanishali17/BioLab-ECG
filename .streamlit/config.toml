@@ -1,0 +1,77 @@
+# Design language: "ink on ECG paper".
+# References studied (Oct 2026): Oura (editorial serif headings, warm cream, navy accent),
+# Withings (light-weight large headings, warm stone panels), Siemens Healthineers
+# (greyscale + one sparing accent), Our World in Data (serif/sans pairing for data stories).
+
+[server]
+headless = true
+runOnSave = false
+enableStaticServing = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"
+
+[runner]
+fastReruns = true
+
+[theme]
+# Body: Geist (neutral grotesk). Headings: Newsreader (editorial serif). Numbers/code: Geist Mono.
+# Only the weights actually used are requested, to keep font downloads small.
+font = "Geist:https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap"
+headingFont = "Newsreader:https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap"
+codeFont = "'Geist Mono':https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=swap"
+baseFontSize = 15
+headingFontWeights = [400, 500, 500, 600, 600, 600]
+headingFontSizes = ["3.1rem", "1.9rem", "1.35rem", "1.05rem", "0.95rem", "0.85rem"]
+metricValueFontSize = "2.0rem"
+metricValueFontWeight = 400
+baseRadius = "0.5rem"
+buttonRadius = "2rem"
+showWidgetBorder = true
+showSidebarBorder = true
+linkUnderline = false
+paddingTop = "1.25rem"
+paddingBottom = "3rem"
+
+[theme.light]
+primaryColor = "#1F3A93"            # ink navy (white button text passes AA)
+backgroundColor = "#F7F3EC"         # warm paper
+secondaryBackgroundColor = "#EFE9DF"
+textColor = "#24221E"               # warm near-black
+borderColor = "#DDD5C8"
+linkColor = "#1F3A93"
+codeTextColor = "#7A3E12"
+codeBackgroundColor = "#EFE9DF"
+redColor = "#B8322A"
+orangeColor = "#C8571B"
+yellowColor = "#B8901C"
+greenColor = "#2A7F75"
+blueColor = "#1F3A93"
+violetColor = "#7E4A8C"
+grayColor = "#7A746A"
+chartCategoricalColors = ["#1F3A93", "#D2602A", "#2A8C82", "#9B4F96", "#B8901C", "#5B7BD5", "#7A746A"]
+dataframeHeaderBackgroundColor = "#EAE3D7"
+dataframeBorderColor = "#DDD5C8"
+
+[theme.dark]
+primaryColor = "#8FA2FF"            # periwinkle, readable on ink
+backgroundColor = "#11131C"         # ink
+secondaryBackgroundColor = "#1A1D2A"
+textColor = "#ECE7DE"               # warm paper text
+borderColor = "#2B2F40"
+linkColor = "#A9B7FF"
+codeTextColor = "#F2A971"
+codeBackgroundColor = "#1A1D2A"
+redColor = "#F06A5E"
+orangeColor = "#F0874B"
+yellowColor = "#E2BE4F"
+greenColor = "#4FC2B3"
+blueColor = "#8FA2FF"
+violetColor = "#C892D0"
+grayColor = "#A39D92"
+chartCategoricalColors = ["#8FA2FF", "#F0874B", "#4FC2B3", "#D39BD6", "#E2BE4F", "#B9C6FF", "#A39D92"]
+dataframeHeaderBackgroundColor = "#1E2232"
+dataframeBorderColor = "#2B2F40"

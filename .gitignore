@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Streamlit secrets (none are needed, never commit any)
+.streamlit/secrets.toml
+
+# Logs and partial downloads
+results/benchmark_log.txt
+*.part
+
+# Data: only the records the app uses are committed (ODC-By 1.0 allows
+# redistribution with attribution, see DATA_ATTRIBUTION.md).
+data/mitdb/*
+!data/mitdb/118.*
+!data/mitdb/119.*
+!data/mitdb/100.*
+!data/mitdb/101.*
+!data/mitdb/103.*
+!data/mitdb/109.*
+!data/mitdb/111.*
+!data/mitdb/112.*
+!data/mitdb/113.*
+!data/mitdb/115.*
+!data/mitdb/116.*
+!data/mitdb/117.*
+!data/mitdb/121.*
+!data/mitdb/122.*
+!data/mitdb/123.*
+data/nstdb/*.xws
+data/learn_raw/
+
+# Local tooling
+.claude/
+.ruff_cache/
+
+# Personal planning notes (job-application strategy): kept out of the public repo
+ECG_Noise_Stress_Test_Bench_SPEC.md

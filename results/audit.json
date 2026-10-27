@@ -1,0 +1,449 @@
+{
+  "headers": [
+    {
+      "db": "mitdb",
+      "record": "118",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 1024,
+      "n_beats": 2278
+    },
+    {
+      "db": "nstdb",
+      "record": "118e24",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 2278
+    },
+    {
+      "db": "nstdb",
+      "record": "118e18",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 2278
+    },
+    {
+      "db": "nstdb",
+      "record": "118e12",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 2278
+    },
+    {
+      "db": "nstdb",
+      "record": "118e06",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 2278
+    },
+    {
+      "db": "nstdb",
+      "record": "118e00",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 2278
+    },
+    {
+      "db": "nstdb",
+      "record": "118e_6",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 2278
+    },
+    {
+      "db": "mitdb",
+      "record": "119",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 1024,
+      "n_beats": 1987
+    },
+    {
+      "db": "nstdb",
+      "record": "119e24",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 1987
+    },
+    {
+      "db": "nstdb",
+      "record": "119e18",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 1987
+    },
+    {
+      "db": "nstdb",
+      "record": "119e12",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 1987
+    },
+    {
+      "db": "nstdb",
+      "record": "119e06",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 1987
+    },
+    {
+      "db": "nstdb",
+      "record": "119e00",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 1987
+    },
+    {
+      "db": "nstdb",
+      "record": "119e_6",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "MLII, V1",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 1987
+    },
+    {
+      "db": "nstdb",
+      "record": "bw",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "noise1, noise2",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 0
+    },
+    {
+      "db": "nstdb",
+      "record": "ma",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "noise1, noise2",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 0
+    },
+    {
+      "db": "nstdb",
+      "record": "em",
+      "fs": 360.0,
+      "n_samples": 650000,
+      "duration_min": 30.09,
+      "channels": "noise1, noise2",
+      "gain": 200.0,
+      "baseline": 0,
+      "n_beats": 0
+    }
+  ],
+  "symbols": {
+    "mitdb/118": {
+      "R": 2166,
+      "A": 96,
+      "V": 16,
+      "~": 12,
+      "x": 10,
+      "+": 1
+    },
+    "mitdb/119": {
+      "N": 1543,
+      "V": 444,
+      "+": 103,
+      "~": 4
+    },
+    "nstdb/118e24": {
+      "R": 2166,
+      "A": 96,
+      "V": 16,
+      "~": 12,
+      "x": 10,
+      "+": 1
+    },
+    "nstdb/119e24": {
+      "N": 1543,
+      "V": 444,
+      "+": 103,
+      "~": 4
+    }
+  },
+  "masks": [
+    {
+      "record": "118e24",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999982
+    },
+    {
+      "record": "118e18",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999994
+    },
+    {
+      "record": "118e12",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999995
+    },
+    {
+      "record": "118e06",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999998
+    },
+    {
+      "record": "118e00",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999998
+    },
+    {
+      "record": "118e_6",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999998
+    },
+    {
+      "record": "119e24",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999974
+    },
+    {
+      "record": "119e18",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999986
+    },
+    {
+      "record": "119e12",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999995
+    },
+    {
+      "record": "119e06",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999997
+    },
+    {
+      "record": "119e00",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999998
+    },
+    {
+      "record": "119e_6",
+      "noisy_segments": 7,
+      "noisy_minutes": 13.09,
+      "agreement_with_protocol": 0.999998
+    }
+  ],
+  "noise_per_channel": {
+    "MLII": 0.013464435428319368,
+    "V1": 0.011765071924405427
+  },
+  "mains": {
+    "peak_50Hz_dB_above_floor": 0.8897315263748169,
+    "peak_60Hz_dB_above_floor": 4.8259992599487305
+  },
+  "mixer_validation": [
+    {
+      "record": "118e24",
+      "nominal_snr_db": 24,
+      "nst_gain_fitted": 0.18669012712340227,
+      "fit_r": 0.9976702098915123,
+      "our_gain": 0.18564095780802073,
+      "gain_error_db": -0.048951018991620895,
+      "variance_estimator_gain_error_db": -7.250366640262267,
+      "within_5lsb_pct": 99.99953846082839,
+      "median_abs_diff_uV": 15.0,
+      "rms_diff_uV": 13.280577279721916
+    },
+    {
+      "record": "118e18",
+      "nominal_snr_db": 18,
+      "nst_gain_fitted": 0.37230123125879644,
+      "fit_r": 0.9994086886977733,
+      "our_gain": 0.3704024072290715,
+      "gain_error_db": -0.04441344042124172,
+      "variance_estimator_gain_error_db": -7.245829061691886,
+      "within_5lsb_pct": 100.0,
+      "median_abs_diff_uV": 10.0,
+      "rms_diff_uV": 9.881306954993908
+    },
+    {
+      "record": "118e12",
+      "nominal_snr_db": 12,
+      "nst_gain_fitted": 0.7432222239728455,
+      "fit_r": 0.9998521092816812,
+      "our_gain": 0.7390499645179229,
+      "gain_error_db": -0.04889774112648672,
+      "variance_estimator_gain_error_db": -7.250313362397133,
+      "within_5lsb_pct": 99.12199864922869,
+      "median_abs_diff_uV": 10.0,
+      "rms_diff_uV": 13.193679959807731
+    },
+    {
+      "record": "118e06",
+      "nominal_snr_db": 6,
+      "nst_gain_fitted": 1.4833796651158981,
+      "fit_r": 0.9999627640681245,
+      "our_gain": 1.4745985430816992,
+      "gain_error_db": -0.05157041436713233,
+      "variance_estimator_gain_error_db": -7.25298603563778,
+      "within_5lsb_pct": 98.19984338437445,
+      "median_abs_diff_uV": 5.0,
+      "rms_diff_uV": 11.753936372062453
+    },
+    {
+      "record": "118e00",
+      "nominal_snr_db": 0,
+      "nst_gain_fitted": 2.9608276932841364,
+      "fit_r": 0.999990587504236,
+      "our_gain": 2.9422109027189283,
+      "gain_error_db": -0.05478667359212008,
+      "variance_estimator_gain_error_db": -7.256202294862767,
+      "within_5lsb_pct": 67.25010346169763,
+      "median_abs_diff_uV": 10.0,
+      "rms_diff_uV": 23.315084044228797
+    },
+    {
+      "record": "118e_6",
+      "nominal_snr_db": -6,
+      "nst_gain_fitted": 5.908956046377908,
+      "fit_r": 0.9999976327878238,
+      "our_gain": 5.870482536885646,
+      "gain_error_db": -0.056739180461444154,
+      "variance_estimator_gain_error_db": -7.258154801732092,
+      "within_5lsb_pct": 50.685616439409905,
+      "median_abs_diff_uV": 25.0,
+      "rms_diff_uV": 48.16890427273498
+    },
+    {
+      "record": "119e24",
+      "nominal_snr_db": 24,
+      "nst_gain_fitted": 0.1617523024680149,
+      "fit_r": 0.9970784747457645,
+      "our_gain": 0.1608246264176205,
+      "gain_error_db": -0.04995840238773802,
+      "variance_estimator_gain_error_db": -7.251374023658386,
+      "within_5lsb_pct": 100.0,
+      "median_abs_diff_uV": 5.0,
+      "rms_diff_uV": 8.14036393682031
+    },
+    {
+      "record": "119e18",
+      "nominal_snr_db": 18,
+      "nst_gain_fitted": 0.3224547942482613,
+      "fit_r": 0.9992571006658301,
+      "our_gain": 0.32088731641002666,
+      "gain_error_db": -0.04232574311095272,
+      "variance_estimator_gain_error_db": -7.2437413643815995,
+      "within_5lsb_pct": 100.0,
+      "median_abs_diff_uV": 5.0,
+      "rms_diff_uV": 7.383292418906867
+    },
+    {
+      "record": "119e12",
+      "nominal_snr_db": 12,
+      "nst_gain_fitted": 0.6435046895684006,
+      "fit_r": 0.9998141551489962,
+      "our_gain": 0.6402543697844212,
+      "gain_error_db": -0.0439832989727753,
+      "variance_estimator_gain_error_db": -7.245398920243423,
+      "within_5lsb_pct": 99.9307691242602,
+      "median_abs_diff_uV": 10.0,
+      "rms_diff_uV": 11.27425775205745
+    },
+    {
+      "record": "119e06",
+      "nominal_snr_db": 6,
+      "nst_gain_fitted": 1.284188830189548,
+      "fit_r": 0.9999532935277481,
+      "our_gain": 1.2774754160250053,
+      "gain_error_db": -0.0455267376385118,
+      "variance_estimator_gain_error_db": -7.246942358909159,
+      "within_5lsb_pct": 99.63046096993995,
+      "median_abs_diff_uV": 5.0,
+      "rms_diff_uV": 8.161746288830264
+    },
+    {
+      "record": "119e00",
+      "nominal_snr_db": 0,
+      "nst_gain_fitted": 2.5633316337082337,
+      "fit_r": 0.9999881684423197,
+      "our_gain": 2.5488985558938846,
+      "gain_error_db": -0.04904491756652126,
+      "variance_estimator_gain_error_db": -7.250460538837169,
+      "within_5lsb_pct": 83.06520471569956,
+      "median_abs_diff_uV": 10.0,
+      "rms_diff_uV": 19.25603385135082
+    },
+    {
+      "record": "119e_6",
+      "nominal_snr_db": -6,
+      "nst_gain_fitted": 5.115875132233033,
+      "fit_r": 0.9999970246815151,
+      "our_gain": 5.0857212332536665,
+      "gain_error_db": -0.05134768953239403,
+      "variance_estimator_gain_error_db": -7.252763310803042,
+      "within_5lsb_pct": 52.657927166041794,
+      "median_abs_diff_uV": 20.0,
+      "rms_diff_uV": 41.575607743948936
+    }
+  ]
+}

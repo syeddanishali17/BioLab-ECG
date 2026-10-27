@@ -1,0 +1,53 @@
+{
+  "cebs_rest": {
+    "record": "b001",
+    "resp_flipped": false,
+    "seconds": 272.0
+  },
+  "ptt_sit": {
+    "record": "s1_sit",
+    "segment_s": [
+      194.026,
+      314.026
+    ],
+    "ppg_flipped": {
+      "ppg_red": true,
+      "ppg_ir": true,
+      "ppg_green": true
+    },
+    "header": "<filename>: s1_sit <activity>: sit <gender>: female <height>: 160 <weight>: 50 <age>: 25 <bp_sys_start>: 87 <bp_sys_end>: 87 <bp_dia_start>: 59 <bp_dia_end>: 57 <hr_1_start>: 74 <hr_2_start>: 69 <hr_1_end>: 74 <hr_2_end>: 70 <spo2_start>: 98 <spo2_end>: 98",
+    "accel_units_fix": "median |a| = 9.59 -> stored as m/s^2, converted to g"
+  },
+  "ptt_walk": {
+    "record": "s1_walk",
+    "segment_s": [
+      185.902,
+      305.902
+    ],
+    "ppg_flipped": {
+      "ppg_red": true,
+      "ppg_ir": true,
+      "ppg_green": true
+    },
+    "header": "<filename>: s1_walk <activity>: walk <gender>: female <height>: 160 <weight>: 50 <age>: 25 <bp_sys_start>: 94 <bp_sys_end>: 90 <bp_dia_start>: 67 <bp_dia_end>: 63 <hr_1_start>: 89 <hr_2_start>: 78 <hr_1_end>: 73 <hr_2_end>: 77 <spo2_start>: 96 <spo2_end>: 97",
+    "accel_units_fix": "median |a| = 11.09 -> stored as m/s^2, converted to g"
+  },
+  "ptt_run": {
+    "record": "s1_run",
+    "segment_s": [
+      185.274,
+      305.274
+    ],
+    "ppg_flipped": {
+      "ppg_red": true,
+      "ppg_ir": true,
+      "ppg_green": true
+    },
+    "header": "<filename>: s1_run <activity>: run <gender>: female <height>: 160 <weight>: 50 <age>: 25 <bp_sys_start>: 92 <bp_sys_end>: 94 <bp_dia_start>: 72 <bp_dia_end>: 76 <hr_1_start>: 65 <hr_2_start>: 69 <hr_1_end>: 78 <hr_2_end>: 71 <spo2_start>: 99 <spo2_end>: 98",
+    "accel_units_fix": "median |a| = 9.87 -> stored as m/s^2, converted to g"
+  },
+  "pcg": {
+    "record": "a0012",
+    "seconds": 20.0
+  }
+}

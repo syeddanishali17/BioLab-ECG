@@ -1,0 +1,11 @@
+# Runtime (Streamlit Community Cloud installs this file). Python 3.12.
+streamlit==1.66.1
+wfdb==4.3.1
+neurokit2==0.2.13
+numpy==2.5.4
+scipy==1.18.1
+pandas==2.3.3
+plotly==7.1.0
+pyarrow==26.0.0
+matplotlib==3.11.2
+scikit-learn==1.9.1

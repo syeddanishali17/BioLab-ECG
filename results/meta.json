@@ -1,0 +1,54 @@
+{
+  "created": "2026-10-27 16:38",
+  "runtime_s": 978.0,
+  "n_signals": 282,
+  "n_runs": 2820,
+  "detectors": {
+    "neurokit": {
+      "name": "NeuroKit2",
+      "library": "neurokit2",
+      "reference": "Makowski et al. 2021 (default method)"
+    },
+    "pantompkins": {
+      "name": "Pan-Tompkins",
+      "library": "neurokit2",
+      "reference": "Pan & Tompkins 1985"
+    },
+    "hamilton": {
+      "name": "Hamilton",
+      "library": "neurokit2",
+      "reference": "Hamilton 2002"
+    },
+    "elgendi": {
+      "name": "Elgendi",
+      "library": "neurokit2",
+      "reference": "Elgendi et al. 2010"
+    },
+    "xqrs": {
+      "name": "XQRS",
+      "library": "wfdb",
+      "reference": "PhysioNet WFDB XQRS"
+    }
+  },
+  "prefilters": [
+    "none",
+    "hp_notch"
+  ],
+  "channel": 0,
+  "match_tolerance_s": 0.15,
+  "window_s": 10.0,
+  "bootstrap": {
+    "n_boot": 1000,
+    "unit": "10 s window",
+    "ci": "percentile 95%"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "wfdb": "4.3.1",
+    "neurokit2": "0.2.13",
+    "pandas": "2.3.3"
+  },
+  "quick": false
+}

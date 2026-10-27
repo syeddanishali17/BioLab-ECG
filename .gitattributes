@@ -1,0 +1,10 @@
+# Text files: LF in the repository
+* text=auto eol=lf
+
+# Binary data must never be touched by line-ending conversion
+*.dat     binary
+*.atr     binary
+*.npz     binary
+*.parquet binary
+*.wav     binary
+*.png     binary
